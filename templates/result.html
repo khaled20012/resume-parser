@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Parsing Result</title>
+</head>
+<body>
+    <h1>Parsed Entities</h1>
+    <ul>
+        {% for entity, label in entities %}
+            <li>{{ label }}: {{ entity }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
+
+
